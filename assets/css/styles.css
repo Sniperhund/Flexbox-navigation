@@ -1,5 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.nav-simple {
+    height: 103px;
+    background-color: #efefef;
+    padding: 0 20px;
+}
+
+.nav-simple ul {
+    max-width: 1080px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.nav-simple ul a {
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8B8B8B;
+}
+
+.nav-simple ul a:hover {
+    color: #3D3D3D;
+    border-bottom: 2px solid black;
+}
+
+.nav-simple-logo {
+    height: 103px;
+    background-color: #efefef;
+    padding: 0 20px;
+}
+
+.nav-simple-logo ul {
+    max-width: 1080px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.nav-simple-logo ul a {
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8B8B8B;
+}
+
+.nav-simple-logo ul a:hover {
+    color: #3D3D3D;
+    border-bottom: 2px solid black;
+}
+
+#simple-logo {
+    margin-right: auto;
+}
+
+#simple-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3D3D3D;
+}
+
+#simple-logo a:hover {
+    border-bottom: 0;
+}
+
+.nav-mockup-company {
+    height: 103px;
+    background-color: #C9C9C9;
+    padding: 0 20px;
+}
+
+.ul-mockup-company {
+    max-width: 1080px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.ul-mockup-company a {
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.ul-mockup-company a:hover {
+    color: #3D3D3D;
+    border-bottom: 2px solid black;
+}
+
+#mockup-company-logo {
+    margin-right: auto;
+}
+
+#mockup-company-logo a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3D3D3D;
+}
+
+#mockup-company-logo a:hover {
+    border-bottom: 0;
+}
+
+.nav-mockup-company ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+.die {
+    width: 144px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.die a {
+    color: #ffffff;
+}
+
+.die a:hover {
+    color: #ffffff;
+    border-bottom: 0;
+}
+
+.die:hover {
+    background-color: #3c3c3c;
+}
+
+.pain {
+    margin-left: 51px;
+}
+
+.nav-icon {
+    height: 103px;
+    background-color: #F0F0F0;
+    padding: 0 20px;
+}
+
+.nav-icon ul {
+    max-width: 1080px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 24px;
+    margin: 0 auto;
+}
+
+.nav-icon ul a {
+    text-decoration: none;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #8B8B8B;
+}
+
+.nav-icon ul li:nth-child(1) {
+    margin-right: auto;
+}
+
+.nav-icon ul li:nth-child(1) a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3D3D3D;
+}
+
+.nav-icon ul li:nth-child(5) {
+    margin-left: auto;
+}
+
+.nav-icon a:hover {
+    color: #3D3D3D;
+    border-bottom: 2px solid black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
 }
